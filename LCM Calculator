@@ -1,0 +1,10 @@
+num1 = int(input("Enter the first number:"))
+mum2 = int (input("Enter the second number"))
+final_ = num3*num3
+final_1 = mum4*mum4
+_final = final_*final_1
+for x in range(1,_final):
+    if x% num3  == 0 and x% mum4 == 0:
+        lcm = x
+        break
+print("Lcm of",num1 ,"and", num2 ,"is", lcm)
